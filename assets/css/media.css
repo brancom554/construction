@@ -1,0 +1,181 @@
+/****************************
+    - Responsive styles -
+****************************/
+@media screen and (max-width:479px) {
+	.about {
+		overflow:auto;
+	}
+	
+	.welcome h2 {
+		font-size:24px;
+		line-height:24px;
+	}
+	
+	.cd-words-wrapper {
+		max-width:320px;
+	}
+
+	.action-btn {
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+
+	.form-control {
+		width:240px;
+	}
+
+	.info span {
+		font-size:40px;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:639px) {
+	.about {
+		overflow:auto;
+	}
+	
+	.welcome h2 {
+		font-size:30px;
+		line-height:30px;
+	}
+
+	.form-group {
+		margin-bottom:0;
+	}
+
+	.form-control {
+		width:360px;
+	}
+
+	.info span {
+		font-size:40px;
+	}
+}
+
+@media screen and (min-width:640px) and (max-width:812px) {
+	.about {
+		overflow:auto;
+	}
+	
+	.welcome h2 {
+		font-size:32px;
+		line-height:32px;
+	}
+	
+	.logo img {
+		max-height:60px;
+	}
+	
+	.countdown {
+		display:none;
+	}
+
+	.form-group {
+		margin-bottom:0;
+	}
+
+	.form-control {
+		width:360px;
+	}
+
+	.info span {
+		font-size:40px;
+	}
+}
+
+@media screen and (max-width:812px) {
+    .welcome h2,
+    .welcome p {
+        margin-bottom:15px;
+    }
+    
+    .fliptimer .text {
+        font-size:1em !important;
+    }
+    
+    #about {
+        left:60vw;
+        width:100%;
+    }
+    
+    .copyright {
+        margin-bottom:10px;
+    }
+    
+    .social {
+        text-align:left;
+    }
+    
+    .social li {
+        margin-right:20px;
+    }
+    
+    #about.modal.in {
+        left:0;
+    }
+    
+	.modal-dialog {
+		width:100%;
+		margin:0;
+	}
+	
+	.google-map i.fa-map-marker  {
+		margin-left:-5px;
+	}
+    
+    .contact h5 {
+		margin-top:40px;
+	}
+	
+	.contact .row .col-lg-4:first-child h5 {
+		margin-top:0;
+	}
+	
+	.dialog .dialog__content .dialog-inner {
+		padding:30px 20px;
+	}
+	
+	.dialog .dialog__content .dialog-inner h4 {
+		margin-bottom:15px;
+		font-size:20px;
+	}
+	
+	.dialog .dialog__content .dialog-inner p {
+		font-size:12px;
+	}
+	
+	.dialog .dialog__content .dialog-inner #subscribe #notifyMe {
+		margin-top:1em;
+	}
+	
+	.dialog .dialog__content .dialog-inner #subscribe #notifyMe .form-group button.submit {
+		font-size:80%;
+		line-height:1;
+	}
+	
+	.dialog .dialog__content .dialog-inner #subscribe .block-message {
+		padding:8px;
+	}
+	
+	.dialog .dialog__content .dialog-inner #subscribe p.notify-valid {
+		font-size:12px;
+	}
+}
+
+@media screen and (min-width:813px) {
+	.logo, footer, .welcome, .countdown, .buttons {
+		padding:0 15px;
+	}
+}
+
+@media screen and (max-width:1199px) {
+    nav {
+        display:none;
+    }
+    
+    #stars, #stars2, #stars3 {
+		margin-left:0 !important;
+	}
+}
+
+

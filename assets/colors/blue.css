@@ -1,0 +1,34 @@
+a, 
+.welcome h2 b, 
+.action-btn:hover,
+.contact h5 i,
+.contact p a:hover,
+.contact-form-result h3,
+.social li a:hover {
+	color:#1fb4da;
+}
+
+.flip-val {
+	color:#1fb4da !important;
+}
+
+.action-btn {
+	background:#1fb4da;
+}
+
+.section-title hr:after,
+#zoom-in:hover, #zoom-out:hover,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color:#1fb4da !important;
+}
+
+#zoom-in, #zoom-out {
+  	background-color:rgba(31, 180, 218, 0.8);
+}
+
+.page-loader .loading span,
+.contact-form .field input:focus, 
+.contact-form .field textarea:focus,
+.dialog__content:before {
+	border-color:#1fb4da;
+}
