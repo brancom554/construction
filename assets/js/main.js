@@ -242,12 +242,14 @@
                     phone:$phone.val(), 
                     message:$text.val()
                 }, function(response) {
-                    var data = $.parseJSON(response);
-
-                    if (data.status==='email') {
-                        fieldNotice($email);
+					 console.log("data "+response);
+                   // var data = $.parseJSON(response);
+                    var successmsg = "Mail envoyé avec succes"; 
+                    if (response==='email') {
+                        // fieldNotice($email);
+						document.getElementById('error').innerHTML = successmsg;
                         $button.removeAttr('disabled');
-                    } else if (data.status==='error') {
+                    } else if (response==='error') {
                         $button.text('Unknown Error :(');
                     } else {
                         $('.contact-form-holder').fadeOut(300);
