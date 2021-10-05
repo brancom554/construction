@@ -108,7 +108,7 @@
 	**************************/
 	if ($("#countdown").length>0) {
 		$("#countdown").flipTimer({
-			date:"2021/10/04 08:00:00",
+			date:"2021/10/08 08:00:00",
 			dayTextNumber:"auto",
 			bgColor:"#fff",
 			dividerColor:"#666",
@@ -118,7 +118,7 @@
 			
 			//Expire
 			expireType:"message", //message, hide, redirect
-			message:"Desole, vous etes en retard!",
+			message:"Contactez nous au +229 91 96 11 11",
 			redirect:""
 		});
 	}
