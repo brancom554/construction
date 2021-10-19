@@ -108,7 +108,7 @@
 	**************************/
 	if ($("#countdown").length>0) {
 		$("#countdown").flipTimer({
-			date:"2021/10/18 08:00:00",
+			date:"2021/10/22 08:00:00",
 			dayTextNumber:"auto",
 			bgColor:"#fff",
 			dividerColor:"#666",
